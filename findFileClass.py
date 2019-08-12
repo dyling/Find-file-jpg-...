@@ -6,7 +6,7 @@ win_unicode_console.enable()
 wantFileType = ['mp4', 'rmvb', 'avi', 'mkv', 'txt']
 
 
-class findFileClass():
+class findFileClass:
     def __init__(self, directer=""):
         self.dir = directer
         self.dirQueue = [self.dir]
